@@ -84,7 +84,6 @@ func main() {
 		HandlerFactory: krakendgin.EndpointHandler,
 		Middlewares: []gin.HandlerFunc{
 			middleware.Cors(),
-			middleware.JwtCheck(),
 		},
 	}
 
